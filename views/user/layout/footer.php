@@ -19,7 +19,7 @@
 </div>
 
 <!-- Footer Start -->
-<footer class="container bg-light border border-3 border-gold p-3 rounded-5 rounded-bottom mt-5">
+<footer class="container bg-light border border-3 border-bottom-0 border-gold p-3 rounded-3 rounded-bottom-0 mt-5">
     <div class="row">
 
         <div class="col-12 col-lg-6">
