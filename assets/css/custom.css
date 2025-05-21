@@ -1,0 +1,74 @@
+:root {
+    --brown-color: #783205 !important;
+    --secondary-color: #33c1ff !important;
+    --success-color: #28a745 !important;
+    --danger-color: #dc3545 !important;
+    --warning-color: #ffc107 !important;
+    --info-color: #17a2b8 !important;
+    --light-color: #ffffff !important;
+    --dark-color: #343a40 !important;
+    --orange-color: #fc521d !important;
+    --muted-color: #888888 !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    /* background: rgb(90, 3, 3); */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #13895280;
+    /* border-radius: 5px; */
+}
+
+#spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* Nền trắng */
+    z-index: 9999;
+    /* Đảm bảo spinner nằm trên cùng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    /* Hiển thị spinner ban đầu */
+}
+
+.nav-link {
+    color: var(--brown-color) !important;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.text-brown {
+    color: var(--brown-color);
+}
+
+/* Mặc định cho tất cả các màn hình */
+.navbar-brand {
+    font-size: 20px !important;
+}
+
+/* Tablet */
+@media (max-width: 880px) {
+    .navbar-brand {
+        font-size: 16px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 440px) {
+    .navbar-brand {
+        font-size: 12px !important;
+    }
+}
