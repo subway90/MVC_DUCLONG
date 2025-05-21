@@ -1,5 +1,8 @@
 :root {
     --brown-color: #783205 !important;
+    --brown-color-80: #78320580 !important;
+    --gold-color: #B47E11 !important;
+    --gold-color-80: #B47E1180 !important;
     --secondary-color: #33c1ff !important;
     --success-color: #28a745 !important;
     --danger-color: #dc3545 !important;
@@ -7,12 +10,18 @@
     --info-color: #17a2b8 !important;
     --light-color: #ffffff !important;
     --dark-color: #343a40 !important;
+    --dark-color-80: #343a4080 !important;
     --orange-color: #fc521d !important;
-    --muted-color: #888888 !important;
+    --muted-color: #DADADA !important;
+    --yellow-color: #FFD803 !important;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url('/assets/file/system/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
 }
 
 
@@ -23,8 +32,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #13895280;
+    background-color: var(--gold-color-80);
     /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--gold-color);
+    border-radius: 5px;
 }
 
 #spinner {
@@ -54,15 +68,130 @@ body {
     color: var(--brown-color);
 }
 
+.section-first {
+    margin-bottom: 20%;
+}
+
 /* Mặc định cho tất cả các màn hình */
 .navbar-brand {
     font-size: 20px !important;
+}
+
+.border-gold {
+    border-color: #B47E11 !important;
+}
+
+.btn-gold {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 520;
+    background: linear-gradient(-12deg, #AE4E00, #B47E11, #ffef86, #BC881B, #A54E07);
+    background-position: center; /* Đổi vị trí nền khi hover */
+    border: 1.5px solid var(--brown-color);
+    box-shadow: var(--dark-color-80) -3px 3px 4px;
+    background-size: 200% 200%; /* Thay đổi kích thước nền để tạo hiệu ứng chuyển động */
+    transition: background-position 0.6s ease, color 1s ease; /* Chuyển đổi vị trí nền */
+}
+
+.btn-gold:hover {
+    color: var(--light-color);
+    background-position: left 0px; /* Đổi vị trí nền khi hover */
+}
+
+
+.border-mix-gold {
+    background: linear-gradient(-25deg, #AE4E00, #B47E11, #ffef86, #BC881B, #A54E07);
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.card-service {
+    transition: calc(0.5s);
+}
+
+.card-service:hover {
+    transform: scale(1.06);
+    transition: calc(0.7s);
+}
+
+.carousel-indicators button {
+    background-color: var(--muted-color) !important;
+    opacity: 1 !important;
+    height: 8px !important;
+    width: 72px !important;
+    border: 1px solid var(--muted-color) !important;
+    border-radius: 24px !important;
+}
+
+.carousel-indicators .active {
+    background-color: var(--yellow-color) !important;
+    border-color: var(--yellow-color) !important;
+}
+
+.card-process {
+    box-shadow: 0px 4px 2px var(--dark-color);
+}
+
+.box-mail {
+    max-height: 320px;
+    overflow-y: auto;
+    box-shadow: 0 0 2px var(--muted-color);
+}
+
+/* Tổng quát cho lịch */
+.flatpickr-calendar {
+    width: 100% !important;
+    height: auto;
+}
+
+/* Kích thước của các ngày */
+.flatpickr-day {
+    width: 40px;
+    height: 40px;
+}
+
+/* Màu nền khi chọn ngày */
+.flatpickr-day.selected {
+    background-color: var(--gold-color) !important;
+    color: white;
+    border-color: var(--gold-color) !important;
+}
+
+ .flatpickr-day:hover {
+    background-color: var(--gold-color-80) !important;
+    color: white;
+    border-color: var(--gold-color-80) !important;
+}
+
+/* Thay đổi màu cho ngày hôm nay */
+.flatpickr-day.today {
+    background-color: #fff3cd;
+    border-color: #fff3cd !important;
+}
+
+/* Tùy chỉnh các tiêu đề */
+.flatpickr-month {
+    background-color: #f8f9fa; /* Màu nền cho tiêu đề tháng */
+    color: #000; /* Màu chữ */
+}
+
+/* Viền cho lịch */
+.flatpickr-calendar {
+    border: 1px solid #ccc; /* Viền cho lịch */
+    border-radius: 8px; /* Bo góc cho lịch */
+}
+
+.form-calender {
+    background-color: var(--light-color);
 }
 
 /* Tablet */
 @media (max-width: 880px) {
     .navbar-brand {
         font-size: 16px !important;
+    }
+    .section-first {
+        margin-bottom: 40px;
     }
 }
 

@@ -19,7 +19,7 @@
 </div>
 
 <!-- Footer Start -->
-<footer class="container bg-light border border-warning p-3 rounded-3 mt-5">
+<footer class="container bg-light border border-3 border-gold p-3 rounded-5 rounded-bottom mt-5">
     <div class="row">
 
         <div class="col-12 col-lg-6">
@@ -33,8 +33,8 @@
                     <span class="text-muted small">
                         36/80 Xuân Thuỷ, Quận Nam Từ Liêm, TP. Hà Nội
                     </span>
-                    <span class="text-nowrap ms-2 small text-brown fst-italic text-decoration-underline">
-                        <small data-bs-toggle="modal" data-bs-target="#modalMap" >Xem bản đồ</small>
+                    <span class="text-center text-lg-start small text-brown fst-italic text-decoration-underline">
+                        <div data-bs-toggle="modal" data-bs-target="#modalMap" >Xem bản đồ</div>
                     </span>
                 </div>
                 <div class="">

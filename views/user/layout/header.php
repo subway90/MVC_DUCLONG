@@ -24,9 +24,13 @@
   <!-- JS Ajax Cart -->
   <script src="<?= URL ?>assets/js/ajax_cart.js"></script>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="<?= WEB_FAVICON ?>" type="image/x-icon">
+  <link rel="shortcut icon" href="<?= URL_STORAGE ?>system/logo.png" type="image/x-icon">
   <!-- Font Roboto -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <!-- Flatpickr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <!-- Title -->
   <title><?= isset($title) ? $title : WEB_NAME ?></title>
 </head>
@@ -48,7 +52,7 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container px-lg-0">
       <a class="navbar-brand text-uppercase fw-bold d-flex align-items-center" href="/">
         <img width="40" class="me-3" src="<?= URL_STORAGE ?>system/logo.png" alt="DUCLONG LOGO">
