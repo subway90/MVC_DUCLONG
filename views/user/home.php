@@ -247,8 +247,8 @@
                         </p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="border-mix-gold border-gold d-flex align-items-center p-2 px-3 gap-3">
-                        <i class="fas fa-envelope"></i>
+                    <div class="bg-head-mail d-flex align-items-center p-3 gap-3">
+                        <i class="fas fa-envelope fs-5"></i>
                         <div class="fw-semibold fs-5">
                             Hòm thư góp ý
                         </div>
@@ -308,7 +308,7 @@
                                             </div>
                                             <hr class="text-muted my-2">
                                             <p class="small">
-                                                Teambuilding là gì mà lại trở thành một phần quan trọng đối với hầu hết các
+                                                Teambuilding là gì mà lại trở thành một phần quan trọng đối với hầu hết các
                                                 doanh nghiệp? Có thể hiểu đây là dịp để các nhân viên trong công ty thể hiện...
                                             </p>
                                         </div>
