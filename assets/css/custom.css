@@ -130,53 +130,6 @@ body {
     box-shadow: 0 0 2px var(--muted-color);
 }
 
-/* Tổng quát cho lịch */
-.flatpickr-calendar {
-    width: 100% !important;
-    height: auto;
-}
-
-/* Kích thước của các ngày */
-.flatpickr-day {
-    width: 40px;
-    height: 40px;
-}
-
-/* Màu nền khi chọn ngày */
-.flatpickr-day.selected {
-    background-color: var(--gold-color) !important;
-    color: white;
-    border-color: var(--gold-color) !important;
-}
-
- .flatpickr-day:hover {
-    background-color: var(--gold-color-80) !important;
-    color: white;
-    border-color: var(--gold-color-80) !important;
-}
-
-/* Thay đổi màu cho ngày hôm nay */
-.flatpickr-day.today {
-    background-color: #fff3cd;
-    border-color: #fff3cd !important;
-}
-
-/* Tùy chỉnh các tiêu đề */
-.flatpickr-month {
-    background-color: #f8f9fa; /* Màu nền cho tiêu đề tháng */
-    color: #000; /* Màu chữ */
-}
-
-/* Viền cho lịch */
-.flatpickr-calendar {
-    border: 1px solid #ccc; /* Viền cho lịch */
-    border-radius: 8px; /* Bo góc cho lịch */
-}
-
-.form-calender {
-    background-color: var(--light-color);
-}
-
 /* Tablet */
 @media (max-width: 880px) {
     .navbar-brand {

@@ -333,57 +333,53 @@
     <div class="d-flex flex-column">
         <div class="col-12">
             <h1 class="fw-bold text-center text-lg-start">
-                Đặt lịch hẹn
+                Liên hệ
             </h1>
         </div>
         <form id="formCreateCalender">
-            <div class="col-12 border-mix-gold mt-3">
-                <div class="bg-light d-flex flex-column flex-lg-row p-4 rounded-3 gap-3">
-                    <div class="">
-                        <h6 class="text-center text-lg-start text-brown fw-semibold mb-3">
-                            Chọn ngày hẹn
-                        </h6>
-                        <div id="datepicker" class="border p-3 d-none"></div>
+            <div class="col-12 d-flex flex-column flex-lg-row py-4 rounded-3 gap-3 mt-3">
+
+                <div class="col-12 col-lg-7 border-mix-gold">
+                    <div class="bg-light p-3 p-lg-5 rounded-3 border border-1">
+                        <div class="mb-2 mb-lg-3">
+                            <label for="full_name" class="form-label fw-semibold">Họ và tên</label>
+                            <input id="full_name" type="text" class="form-control bg-warning bg-opacity-25 border-gold">
+                        </div>
+                        <div class="mb-2 mb-lg-3">
+                            <label for="phone" class="form-label fw-semibold">Số điện thoại</label>
+                            <input id="phone" type="text" class="form-control bg-warning bg-opacity-25 border-gold">
+                        </div>
+                        <div class="mb-2 mb-lg-3">
+                            <label for="email" class="form-label fw-semibold">Email</label>
+                            <input id="email" type="email" class="form-control bg-warning bg-opacity-25 border-gold">
+                        </div>
+                        <div class="mb-2 mb-lg-3">
+                            <label for="message" class="form-label fw-semibold">Lời nhắn</label>
+                            <textarea id="message" class="form-control bg-warning bg-opacity-25 border-gold" rows="3"></textarea>
+                        </div>
+                        <button id="btnCreateCalender" type="submit" class="btn btn-gold mt-3 w-100">Gửi đi</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5 d-flex flex-column gap-3 ps-lg-5">
+                    <h4 class="text-center text-lg-start text-uppercase text-brown fw-semibold mb-3">
+                        công ty tnhh du lịch và sự kiện duclong global
+                    </h4>
+                    <div class="d-flex align-items-center gap-3 fs-5">
+                        <i class="fas fa-map-marker-alt text-brown"></i>
+                        36/80 Xuân Thuỷ, Quận Nam Từ Liêm, Hà Nội
+                    </div>
+                    <div class="d-flex align-items-center gap-3 fs-5">
+                        <i class="fas fa-phone text-brown"></i>
+                        0948594444
                     </div>
                     
-                    <div class="flex-grow-1">
-                        <h6 class="text-center text-lg-start text-brown fw-semibold mb-3">
-                            Điền thông tin
-                        </h6>
-                        <div class="form-calender p-3 p-lg-5 rounded-3 border border-1">
-                            <div class="mb-2 mb-lg-3">
-                                <label for="full_name" class="form-label fw-semibold">Họ và tên</label>
-                                <input id="full_name" type="text" class="form-control bg-warning bg-opacity-25 border-gold">
-                            </div>
-                            <div class="mb-2 mb-lg-3">
-                                <label for="phone" class="form-label fw-semibold">Số điện thoại</label>
-                                <input id="phone" type="text" class="form-control bg-warning bg-opacity-25 border-gold">
-                            </div>
-                            <div class="mb-2 mb-lg-3">
-                                <label for="email" class="form-label fw-semibold">Email</label>
-                                <input id="email" type="email" class="form-control bg-warning bg-opacity-25 border-gold">
-                            </div>
-                            <div class="mb-2 mb-lg-3">
-                                <label for="message" class="form-label fw-semibold">Lời nhắn</label>
-                                <textarea id="message" class="form-control bg-warning bg-opacity-25 border-gold" rows="3"></textarea>
-                            </div>
-                            <button id="btnCreateCalender" type="submit" class="btn btn-gold mt-3">Gửi lịch hẹn</button>
-                        </div>
+                    <div class="d-flex align-items-center gap-3 fs-5">
+                        <i class="fas fa-envelope text-brown"></i>
+                        contact@duclong.com
                     </div>
                 </div>
             </div>
         </form>
     </div>
 </div>
-
-<script>
-    flatpickr("#datepicker", {
-        inline: true,
-        onChange: function (selectedDates, dateStr) {
-            document.getElementById("selected-date").value = dateStr; // Lưu ngày đã chọn vào hidden input
-        },
-        locale: {
-            firstDayOfWeek: 1 // Ngày đầu tuần là thứ Hai
-        }
-    });
-</script>
