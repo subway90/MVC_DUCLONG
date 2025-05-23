@@ -180,4 +180,10 @@ body {
     .navbar-brand {
         font-size: 12px !important;
     }
+
+    .btn-media {
+        text-decoration: none;  
+        width: 68px;
+        height: 68px;
+    }
 }
