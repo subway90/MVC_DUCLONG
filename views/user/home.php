@@ -361,20 +361,20 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-5 d-flex flex-column gap-3 ps-lg-5">
-                    <h4 class="text-center text-lg-start text-uppercase text-brown fw-semibold mb-3">
+                <div class="col-12 col-lg-5 d-flex flex-column gap-3 ps-lg-5 text-center text-lg-start mt-3 mt-lg-0">
+                    <h4 class="text-uppercase text-brown fw-semibold mb-3">
                         công ty tnhh du lịch và sự kiện duclong global
                     </h4>
-                    <div class="d-flex align-items-center gap-3 fs-5">
+                    <div class="d-flex flex-column flex-lg-row align-items-center gap-3 fs-5">
                         <i class="fas fa-map-marker-alt text-brown"></i>
                         36/80 Xuân Thuỷ, Quận Nam Từ Liêm, Hà Nội
                     </div>
-                    <div class="d-flex align-items-center gap-3 fs-5">
+                    <div class="d-flex flex-column flex-lg-row align-items-center gap-3 fs-5">
                         <i class="fas fa-phone text-brown"></i>
                         0948594444
                     </div>
                     
-                    <div class="d-flex align-items-center gap-3 fs-5">
+                    <div class="d-flex flex-column flex-lg-row align-items-center gap-3 fs-5">
                         <i class="fas fa-envelope text-brown"></i>
                         contact@duclong.com
                     </div>
