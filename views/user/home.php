@@ -5,28 +5,43 @@
     </video>
 </div>
 
-<div class="container mt-5 border border-3 border-gold rounded-5">
-    <div class="p-3 p-lg-5">
-        <div class="d-flex flex-column-reverse flex-md-row">
-            <div class="col-12 col-md-6 pe-lg-5">
-                <h1 class="fw-bold text-center text-lg-start">
-                    Về chúng tôi
-                </h1>
-                <p class="fw-bold mt-3 mt-lg-5 text-center text-lg-start">
-                    How we rose up to become leaders in the consulting industry.
-                </p>
-                <p class="fw-normal small mt-3">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad nobis, facere aut sapiente
-                    voluptatum expedita deleniti laborum qui delectus temporibus magni tenetur eum perferendis minima
-                    vero. Sequi, magnam praesentium!
-                </p>
-                <button class="btn-lg btn-gold rounded-pill text-brown mt-md-0 mt-lg-3 col-12 col-md-6 col-lg-4">
-                    <small>Tìm hiểu thêm</small>
-                </button>
+<div class="container mt-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="col-12 col-md-5 pe-lg-5">
+            <h6 class="fw-bold text-brown text-center text-md-start">
+                Về chúng tôi
+            </h6>
+            <h1 class="fw-bold mt-2 mt-lg-4 text-brown text-center text-md-start">
+                Crafting Unforgettable Journeys at Push
+            </h1>
+            <p class="fw-normal mt-3">
+                Teambuilding (hay team building) là hoạt động xây dựng và phát triển tinh thần làm việc nhóm thông qua các trò chơi...
+            </p>
+            <div class="d-flex my-3">
+                <div class="col-6">
+                    <div class="fw-bold fs-5">
+                        10 K
+                    </div>
+                    <span class="text-muted">
+                        Success Trips
+                    </span>
+                </div>
+                <div class="col-6">
+                    <div class="fw-bold fs-5">
+                        200 K
+                    </div>
+                    <span class="text-muted">
+                        Happy Client
+                    </span>
+                </div>
             </div>
-            <div class="col-12 col-md-6 mb-5 mb-lg-0">
-                <img class="rounded-4" width="100%" src="<?= URL_STORAGE ?>system/about_us.png" alt="ABOUT US">
-            </div>
+            <button class="btn-lg btn-gold rounded-pill text-brown mt-md-0 mt-lg-3 col-12 col-md-6 col-lg-4">
+                <small>Khám phá ngay</small>
+            </button>
+        </div>
+        <div style="height: 24vh" class="col-12 col-md-6 position-relative mt-5 mt-lg-0">
+            <img class="col-12 col-md-9 position-absolute top-0 end-0" src="<?= URL_STORAGE ?>system/about_us_1.png" alt="ABOUT US">
+            <img class="col-6 col-md-7 position-absolute top-0 mt-5 pt-5 start-0 d-none d-md-block" src="<?= URL_STORAGE ?>system/about_us_2.png" alt="ABOUT US">
         </div>
     </div>
 </div>
