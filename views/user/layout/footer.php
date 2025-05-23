@@ -1,5 +1,25 @@
 </body>
 
+<div class="position-fixed bottom-0 end-0">
+    <div class="d-flex flex-column gap-3 pb-5 pe-3 mb-5">
+        <a target="_blank" href="https://zalo.me/0948594444" class="btn-media border-mix-gold rounded-circle">
+            <div class="w-100 h-100 bg-media p-3 rounded-circle d-flex align-items-center justify-content-center">
+                <img src="<?= URL_STORAGE ?>system/icon_zalo.png" alt="ICON ZALO">
+            </div>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/" class="btn-media border-mix-gold rounded-circle">
+            <div class="w-100 h-100 bg-media p-3 rounded-circle d-flex align-items-center justify-content-center">
+                <i class="fab fa-facebook-messenger text-light fs-1"></i>
+            </div>
+        </a>
+        <a target="_blank" href="tel:0948594444" class="btn-media border-mix-gold rounded-circle">
+            <div class="w-100 h-100 bg-phone p-3 rounded-circle d-flex align-items-center justify-content-center">
+                <i class="fas fa-phone text-light fs-1"></i>
+            </div>
+        </a>
+    </div>
+</div>
+
 <!-- Footer Start -->
 <footer class="container bg-light border border-3 border-bottom-0 border-gold p-3 rounded-3 rounded-bottom-0 mt-5">
     <div class="row">

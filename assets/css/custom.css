@@ -130,6 +130,32 @@ body {
     box-shadow: 0 0 2px var(--muted-color);
 }
 
+.bg-media {
+    background-color: #4C93F1;
+    transition: calc(0.4s);
+}
+
+.bg-media:hover {
+    background-color: #2378e7;
+    transition: calc(0.4s);
+}
+
+.bg-phone {
+    background-color: #77C126;
+    transition: calc(0.4s);
+}
+
+.bg-phone:hover {
+    background-color: #5f9b20;
+    transition: calc(0.4s);
+}
+
+.btn-media {
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+}
+
 /* Tablet */
 @media (max-width: 880px) {
     .navbar-brand {
