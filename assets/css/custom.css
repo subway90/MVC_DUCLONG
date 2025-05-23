@@ -18,10 +18,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('/assets/file/system/background.png');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
 }
 
 
@@ -66,10 +62,6 @@ body {
 
 .text-brown {
     color: var(--brown-color);
-}
-
-.section-first {
-    margin-bottom: 20%;
 }
 
 /* Mặc định cho tất cả các màn hình */
@@ -189,9 +181,6 @@ body {
 @media (max-width: 880px) {
     .navbar-brand {
         font-size: 16px !important;
-    }
-    .section-first {
-        margin-bottom: 40px;
     }
 }
 

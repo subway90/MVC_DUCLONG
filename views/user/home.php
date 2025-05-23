@@ -1,7 +1,8 @@
-<div class="container p-0 py-5 section-first">
-    <h1 class="display-2 text-brown fw-bold text-center text-lg-start">
-        Bussiness Consultants <br> With a Growth Mindset
-    </h1>
+<div class="container-fluid p-0">
+    <video autoplay loop muted class="w-100">
+        <source src="<?= URL_STORAGE ?>system/welcome.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </div>
 
 <div class="container mt-5 border border-3 border-gold rounded-5">
