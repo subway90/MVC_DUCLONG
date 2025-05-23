@@ -52,7 +52,7 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container px-lg-0">
       <a class="navbar-brand text-uppercase fw-bold d-flex align-items-center" href="/">
         <img width="40" class="me-3" src="<?= URL_STORAGE ?>system/logo.png" alt="DUCLONG LOGO">
